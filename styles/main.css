@@ -7,7 +7,7 @@ header,
 main,
 footer {
   margin: 1rem auto;
-  max-width: 800px;
+  max-width: 720px;
 }
 
 header,
@@ -21,11 +21,16 @@ footer {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   font-size: 1.1rem;
   padding: 1.1rem;
   align-items: center;
   text-align: center;
+}
+
+header img {
+  border-style: double;
+  border-radius: 12px;
 }
 
 main {

@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+
+:root {
+  --primary-color: #DEB887;
+  --secondary-color: #F5DEB3;
+  --accent1-color: #396E94;
+  --accent2-color: #800000;
+
+  --sans-font: 'PT Sans', sans-serif;
+  --serif-font: 'PT Serif', serif; 
+}
+
+
 body {
   font-size: 18px;
   line-height: 1.5;
@@ -12,6 +26,7 @@ footer {
 
 header,
 footer {
+  font-family: var(--serif-font);
   background-color: darkcyan;
   color: black;
   text-align: center;
@@ -34,6 +49,7 @@ header img {
 }
 
 main {
+  font-family: var(--sans-font);
   display: flex;
   flex-direction: column;
   align-items: center;

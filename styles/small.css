@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
 
-
 :root {
   --primary-color: #DEB887;
   --secondary-color: #F5DEB3;
@@ -13,7 +12,7 @@
 
 
 body {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -30,13 +29,12 @@ footer {
   background-color: darkcyan;
   color: black;
   text-align: center;
-  border-style: double;
-  border-radius: 12px;
+  border-style: none;
 }
 
 header {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: auto;
   font-size: 1.1rem;
   padding: 1.1rem;
   align-items: center;
@@ -44,8 +42,7 @@ header {
 }
 
 header img {
-  border-style: double;
-  border-radius: 12px;
+  border-style: none;
 }
 
 main {
